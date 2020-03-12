@@ -21,9 +21,9 @@ Contribution provided to us for any purpose without fee.
 
 # Bootloader Tools
 
-This repository provides access to various tools for using the Rigado Secure Bootloader.
+This repository provides access to various tools for using the legacy BMD Secure Bootloader, RigDFU
 
-The Rigado Secure Bootloader provides an encryption scheme allowing module users to secure their 
+The legacy BMD Secure Bootloader provides an encryption scheme allowing module users to secure their 
 firmware image during over-the-air and serial-wire transfer. This method works by first installing a 
 private 128-bit key on each device. The update images are then encrypted using the key for the device. 
 After transfer of the encrypyted image, the image is decrypted on the device side and validated 
